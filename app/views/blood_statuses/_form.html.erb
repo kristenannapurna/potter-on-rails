@@ -1,0 +1,25 @@
+<%= form_for(@blood_status) do |f| %>
+  <% if @blood_status.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@blood_status.errors.count, "error") %> prohibited this blood_status from being saved:</h2>
+
+      <ul>
+      <% @blood_status.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :kind %><br>
+    <%= f.text_field :kind %>
+  </div>
+  <div class="field">
+    <%= f.label :character_id %><br>
+    <%= f.text_field :character_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

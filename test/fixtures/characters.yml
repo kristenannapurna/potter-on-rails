@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  death_eater: false
+  dumbledores_army: false
+  order_of_the_phoenix: false
+  alias: MyString
+  wand: MyString
+  birthday: 2016-10-14
+  boggart: MyString
+  patronus: MyString
+  house_id: 
+  school_id: 
+
+two:
+  name: MyString
+  death_eater: false
+  dumbledores_army: false
+  order_of_the_phoenix: false
+  alias: MyString
+  wand: MyString
+  birthday: 2016-10-14
+  boggart: MyString
+  patronus: MyString
+  house_id: 
+  school_id: 

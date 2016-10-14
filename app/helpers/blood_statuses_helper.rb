@@ -1,0 +1,2 @@
+module BloodStatusesHelper
+end

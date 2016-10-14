@@ -1,0 +1,1 @@
+json.partial! "blood_statuses/blood_status", blood_status: @blood_status

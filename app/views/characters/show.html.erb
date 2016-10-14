@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @character.name %>
+</p>
+
+<p>
+  <strong>Death eater:</strong>
+  <%= @character.death_eater %>
+</p>
+
+<p>
+  <strong>Dumbledores army:</strong>
+  <%= @character.dumbledores_army %>
+</p>
+
+<p>
+  <strong>Order of the phoenix:</strong>
+  <%= @character.order_of_the_phoenix %>
+</p>
+
+<p>
+  <strong>Alias:</strong>
+  <%= @character.alias %>
+</p>
+
+<p>
+  <strong>Wand:</strong>
+  <%= @character.wand %>
+</p>
+
+<p>
+  <strong>Birthday:</strong>
+  <%= @character.birthday %>
+</p>
+
+<p>
+  <strong>Boggart:</strong>
+  <%= @character.boggart %>
+</p>
+
+<p>
+  <strong>Patronus:</strong>
+  <%= @character.patronus %>
+</p>
+
+<p>
+  <strong>House:</strong>
+  <%= @character.house %>
+</p>
+
+<p>
+  <strong>School:</strong>
+  <%= @character.school %>
+</p>
+
+<%= link_to 'Edit', edit_character_path(@character) %> |
+<%= link_to 'Back', characters_path %>

@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @house.name %>
+</p>
+
+<p>
+  <strong>Founder:</strong>
+  <%= @house.founder %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @house.description %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @house.color %>
+</p>
+
+<p>
+  <strong>Animal:</strong>
+  <%= @house.animal %>
+</p>
+
+<p>
+  <strong>Element:</strong>
+  <%= @house.element %>
+</p>
+
+<p>
+  <strong>School:</strong>
+  <%= @house.school %>
+</p>
+
+<p>
+  <strong>Ghost:</strong>
+  <%= @house.ghost %>
+</p>
+
+<%= link_to 'Edit', edit_house_path(@house) %> |
+<%= link_to 'Back', houses_path %>

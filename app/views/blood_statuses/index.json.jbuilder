@@ -1,0 +1,1 @@
+json.array! @blood_statuses, partial: 'blood_statuses/blood_status', as: :blood_status

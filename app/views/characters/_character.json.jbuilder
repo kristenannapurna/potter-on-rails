@@ -1,0 +1,2 @@
+json.extract! character, :id, :name, :death_eater, :dumbledores_army, :order_of_the_phoenix, :alias, :wand, :birthday, :boggart, :patronus, :house_id, :school_id, :created_at, :updated_at
+json.url character_url(character, format: :json)

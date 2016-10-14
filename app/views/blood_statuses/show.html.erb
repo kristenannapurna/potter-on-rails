@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Kind:</strong>
+  <%= @blood_status.kind %>
+</p>
+
+<p>
+  <strong>Character:</strong>
+  <%= @blood_status.character %>
+</p>
+
+<%= link_to 'Edit', edit_blood_status_path(@blood_status) %> |
+<%= link_to 'Back', blood_statuses_path %>

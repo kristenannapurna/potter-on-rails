@@ -1,0 +1,61 @@
+<%= form_for(@character) do |f| %>
+  <% if @character.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@character.errors.count, "error") %> prohibited this character from being saved:</h2>
+
+      <ul>
+      <% @character.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :death_eater %><br>
+    <%= f.check_box :death_eater %>
+  </div>
+  <div class="field">
+    <%= f.label :dumbledores_army %><br>
+    <%= f.check_box :dumbledores_army %>
+  </div>
+  <div class="field">
+    <%= f.label :order_of_the_phoenix %><br>
+    <%= f.check_box :order_of_the_phoenix %>
+  </div>
+  <div class="field">
+    <%= f.label :alias %><br>
+    <%= f.text_field :alias %>
+  </div>
+  <div class="field">
+    <%= f.label :wand %><br>
+    <%= f.text_field :wand %>
+  </div>
+  <div class="field">
+    <%= f.label :birthday %><br>
+    <%= f.date_select :birthday %>
+  </div>
+  <div class="field">
+    <%= f.label :boggart %><br>
+    <%= f.text_field :boggart %>
+  </div>
+  <div class="field">
+    <%= f.label :patronus %><br>
+    <%= f.text_field :patronus %>
+  </div>
+  <div class="field">
+    <%= f.label :house_id %><br>
+    <%= f.text_field :house_id %>
+  </div>
+  <div class="field">
+    <%= f.label :school_id %><br>
+    <%= f.text_field :school_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

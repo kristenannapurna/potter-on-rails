@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  role: MyString
+  place_of_employment: MyString
+  department: MyString
+  characters_id: 
+
+two:
+  role: MyString
+  place_of_employment: MyString
+  department: MyString
+  characters_id: 
